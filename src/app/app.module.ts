@@ -7,6 +7,7 @@ import { MainComponent } from './main/main.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { IndexComponent } from './index/index.component';
+import { HeaderComponent } from './header/header.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { IndexComponent } from './index/index.component';
     AppComponent,
     MainComponent,
     ProjectsComponent,
-    IndexComponent
+    IndexComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
